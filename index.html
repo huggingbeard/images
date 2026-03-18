@@ -7,6 +7,13 @@
   <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
+  <nav class="nav-bar">
+    <a href="#about">About</a>
+    <a href="#download">Download</a>
+    <a href="#plot">Plot</a>
+    <a href="#preview">Preview</a>
+  </nav>
+
   <main class="page">
     <section class="hero">
       <p class="eyebrow">Data Repository for Image(s)</p>
@@ -32,7 +39,7 @@
       </figure>
     </section>
 
-    <section class="panel overview-panel">
+    <section id="about" class="panel overview-panel">
       <div class="section-head">
         <h2>About This Dataset</h2>
         <p>
@@ -86,7 +93,7 @@
       </p>
     </section>
 
-    <section class="panel controls-panel">
+    <section id="download" class="panel controls-panel">
       <div class="controls-header">
         <h2>Download Data</h2>
         <p>
@@ -131,7 +138,7 @@
       <p id="status" class="status" aria-live="polite"></p>
     </section>
 
-    <section class="panel chart-panel">
+    <section id="plot" class="panel chart-panel">
       <div class="section-head">
         <h2>Plot</h2>
         <p id="chartSummary">Load the data to see a chart.</p>
@@ -141,7 +148,7 @@
       </div>
     </section>
 
-    <section class="panel preview-panel">
+    <section id="preview" class="panel preview-panel">
       <div class="section-head">
         <h2>Preview</h2>
         <p>The first matching rows appear here before download.</p>
